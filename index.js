@@ -86,7 +86,7 @@ var getInfo = function(options) {
 module.exports = function (o) {
 
     if(!o.src) {
-        this.emit('error', new PluginError('gulp-techy', 'Missing src property'));
+        throw new Error('gulp-techy: Missing `src` property.');
         return;
     }
 
