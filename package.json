@@ -13,7 +13,9 @@
   ],
   "dependencies": {
     "through2": "0.4.1",
-    "gulp-util": "2.2.14"
+    "gulp-util": "2.2.14",
+    "glob": "3.2.9",
+    "yaml-front-matter": "3.0.1"
   },
   "devDependencies": {
     "mocha": "1.17.1",

@@ -1,0 +1,3 @@
+<% set('name', 'A') %>
+<% set('customProp', 145) %>
+test...
